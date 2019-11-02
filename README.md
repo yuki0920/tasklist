@@ -1,7 +1,5 @@
 # README
 
-
-<<<<<<< HEAD
 ## Version
   - ruby 2.5.1
   - Rails 5.2.1
@@ -29,27 +27,13 @@ admin: true
 ```
 
 ## To Start Project
-=======
-Things you may want to cover:
-
-- Version
-  - ruby 2.5.1
-  - Rails 5.2.1
-- System dependencies
-
-- To Start Project
->>>>>>> 605989f5700621fb4d87301d7c025d76abc758b9
 ```
 $ bundle intasll
 $ rails db:create
 $ rails db:migrate
 ```
 
-<<<<<<< HEAD
 ## Functtions
-=======
-- Functtions
->>>>>>> 605989f5700621fb4d87301d7c025d76abc758b9
   - CRUD:Crete, Read, Update, Delete
   - バリデーション
   - コールバック
@@ -60,7 +44,4 @@ $ rails db:migrate
   - 検索
   - ページネーション
   - Jobスケジューリング
-<<<<<<< HEAD
   - CSV読み込み,出力
-=======
->>>>>>> 605989f5700621fb4d87301d7c025d76abc758b9
