@@ -5,20 +5,26 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+- Version
+  - ruby 2.5.1
+  - Rails 5.2.1
+- System dependencies
 
-* System dependencies
+- To Start Project
+```
+$ bundle intasll
+$ rails db:create
+$ rails db:migrate
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Functtions
+  - CRUD:Crete, Read, Update, Delete
+  - バリデーション
+  - コールバック
+  - ログイン
+  - 単体・統合テスト
+  - ページネーション
+  - 国際化
+  - 検索
+  - ページネーション
+  - Jobスケジューリング
