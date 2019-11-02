@@ -1,23 +1,40 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
-
-- Version
+## Version
   - ruby 2.5.1
   - Rails 5.2.1
-- System dependencies
 
-- To Start Project
+## URL
+https://checktasks.herokuapp.com/
+
+## Account
+
+#### Admin
+
+```
+name: "admin"
+email: "admin@example.com"
+password: "password"
+admin: true
+```
+
+#### Normal
+```
+name: "test"
+email: "test@example.com"
+password: "password"
+admin: true
+```
+
+## To Start Project
 ```
 $ bundle intasll
 $ rails db:create
 $ rails db:migrate
 ```
 
-- Functtions
+## Functtions
   - CRUD:Crete, Read, Update, Delete
   - バリデーション
   - コールバック
@@ -28,3 +45,4 @@ $ rails db:migrate
   - 検索
   - ページネーション
   - Jobスケジューリング
+  - CSV読み込み,出力
